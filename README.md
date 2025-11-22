@@ -1,4 +1,4 @@
-🪙 CoinVision – Coin Counting System
+> ## 🪙 CoinVision – Coin Counting System
 
 Detection & Classification of Coins using Mathematical Image Processing
 
@@ -6,8 +6,8 @@ CoinVision est une application développée dans le cadre du module Traitement d
 
 Le système combine plusieurs méthodes : segmentation par seuillage, filtrage spatial, opérations morphologiques, et une classification des pièces via K-Means.
 
-✨ Features
-🔍 1. Preprocessing
+> ## ✨ Features
+> ## 🔍 1. Preprocessing
 
 Conversion en niveaux de gris
 
@@ -17,7 +17,7 @@ Amélioration du contraste par égalisation d’histogramme
 
 Normalisation de l’image
 
-🧪 2. Segmentation
+> ## 🧪 2. Segmentation
 
 Seuil global / méthode d’Otsu (calcul manuel)
 
@@ -34,7 +34,7 @@ Ouverture
 Fermeture
 (Toutes codées avec vos propres formules — aucune fonction cv2)
 
-🌊 3. Watershed (optionnel selon ton projet)
+> ## 🌊 3. Watershed 
 
 Détection de marqueurs
 
@@ -42,7 +42,7 @@ Séparation des pièces collées
 
 Suppression des petits artefacts
 
-🎯 4. Coin Detection
+> ## 🎯 4. Coin Detection
 
 Extraction des contours (méthode maison)
 
@@ -54,7 +54,7 @@ Périmètre
 
 Rayon estimé
 
-🧠 5. Coin Classification (K-Means)
+> ## 🧠 5. Coin Classification (K-Means)
 
 Classification en 20da, 10da, 50 da, etc.
 
@@ -66,7 +66,7 @@ Intensité moyenne
 
 Texture (variance locale)
 
-📊 6. Results
+> ## 📊 6. Results
 
 Affichage des pièces détectées
 
